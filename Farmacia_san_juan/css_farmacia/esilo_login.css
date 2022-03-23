@@ -1,0 +1,15 @@
+﻿body {
+}
+
+.Login {
+    width: 400px;
+    height: auto;
+    padding: 30px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: #f0f0f0;
+    text-align: justify;
+    border-radius: 3%;
+}

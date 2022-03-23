@@ -1,0 +1,876 @@
+body{
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: #ffffff;
+
+}
+.menu{
+
+  list-style: none;
+  padding: 0;
+  background: #132A4F;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+ 
+  
+
+
+
+}
+.menu li a{
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  display: block;
+
+
+}
+.menu li{
+
+  display: inline-block;
+  text-align: center;
+
+}
+
+.menu li a:hover{
+  background: #7BA9F3;
+
+}
+
+.menu li .busqueda input{
+  width: 200%;
+  color: white;
+border-color: inherit;
+background: transparent;
+margin: 0;
+
+}
+.cabeza{
+  float: left;
+  
+  padding: 0;
+  background: #3A7FED;
+  width: 100%;
+  height: auto;
+  position: fixed;
+margin-bottom: 3px;
+position: relative;
+
+}
+
+
+#Farmacia_LOGO{
+position: absolute;
+width: 330px;
+height: 40px;
+top: 70px;
+left: 35%;
+}
+.seccion{
+  float: left;
+  padding-bottom: 10px;
+  background: #E7E7E7;
+  width: 100%;
+  height: auto;
+  
+
+}
+
+
+.abajo{
+  float: left;
+  width: 100%;
+ height: 300px;
+  background: #E7E7E7;
+
+}
+
+/*footer*/
+.abajo #ayuda{
+  position: absolute;
+  width: 200px;
+  height: 300px;
+
+}
+.abajo #ayuda ul li{
+  list-style: none;
+  
+}
+
+.abajo #ayuda ul li a{
+  text-decoration: none;
+  color: rgb(160, 158, 158);
+}
+
+.abajo #ayuda ul li a:hover{
+  text-decoration:underline black;
+}
+
+
+.abajo #servicios{
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  left: 300px;
+}
+
+.abajo #servicios ul li{
+  list-style: none;
+}
+
+.abajo #servicios ul li a{
+  text-decoration: none;
+  color: rgb(160, 158, 158);
+}
+
+.abajo #servicios ul li a:hover{
+  text-decoration:underline black;
+}
+
+
+.abajo #compra{
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  left: 600px;
+}
+
+.abajo #compra ul li{
+  list-style: none;
+}
+.abajo #compra ul li a{
+  text-decoration: solid;
+  color: rgb(160, 158, 158);
+}
+
+.abajo #compra ul li a:hover{
+  text-decoration:underline black;
+}
+
+.abajo #cliente{
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  left: 900px;
+}
+
+.abajo #cliente ul li{
+  list-style: none;
+}
+
+.abajo #cliente ul li a{
+  text-decoration: none;
+  color: rgb(160, 158, 158);
+}
+
+.abajo #cliente ul li a:hover{
+  text-decoration:underline black;
+}
+#hr{
+  position: relative;
+  top: 230px;
+ 
+}
+#hr hr{
+  border-color: black;
+  border-style: solid;
+}
+
+#parrafo{
+  position: relative;
+  top: 230px;
+}
+#parrafo p{
+  text-align: center;
+}
+/*barra de busqueda*/
+
+
+#search{
+  position: absolute;
+  padding: 7px;
+top: 6px;
+right: 200px;
+}
+
+#search input{
+  width: 0px;
+  height: 25px;
+  padding: 0 20;
+  font-size: 18px;
+  color: #000;
+  outline: none;
+  border: 1px solid rgb(163, 161, 161);
+  border-width: 3px;
+  border-radius: 30px; 
+  transition: all 0.7s ease;
+}
+#btn{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #0764fa;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#search:hover input{
+  width: 350px;
+}
+
+#search input:focus{
+  width: 350px;
+}
+
+
+#categorias {
+    position: absolute;
+    top: 55px;
+    width: 100%;
+    text-align: center;
+    z-index: 2000;
+}
+#categorias #navi #M1{
+  margin-right: 30px;
+  list-style: none;
+  display: inline-block;
+  
+}
+
+#categorias #navi #M1 a{
+  padding: 10px 17px;
+  color: white;
+  text-decoration: none;
+
+}
+#categorias #navi #M1 a:hover{
+ background-color: #0764fa;
+
+}
+#navi > #M1{
+  float: left;
+  text-align:center;
+  
+}
+
+
+
+#navi #M1:hover > section{
+display: block;  
+}
+
+
+#subcategoria {
+    margin-top: 8px;
+    width: auto;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.644);
+    border-radius: 2%;
+    z-index: 2000;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+
+#navi #M1 section{
+  
+  display: none;
+  position: absolute;
+ 
+}
+
+#subC {
+ background-color: #ffffff;
+position: relative;
+width: 170px;
+height: 100%;
+font-size: 12px;
+border-radius: 2%;
+text-align: right;
+margin: 0%;
+padding: 0%;
+}
+
+
+#subC #productos #M2{
+ 
+list-style: none;
+padding-bottom: 30px;
+padding-top: 10px;
+text-align:right;
+display: block;
+
+
+}
+
+#subC #productos #M2 a{
+ 
+  padding: 10px 25px;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  padding-left: 0%;
+  transition: all 0.5s ease;
+  
+ 
+}
+
+#subC #productos #M2 a:hover{
+  background-color: rgb(7, 18, 175);
+}
+
+/* barra desplazable farmacia*/
+#subC #productos #M2 #farmacia{
+  padding: 10px 0px;
+  
+
+}
+
+
+#subC #productos .far:hover > #farmacia{
+ width: 475px;
+ height: 100%;
+ visibility: visible;
+ transition: all 0.7s ease;
+}
+
+
+#farmacia{
+  background-color: rgb(194, 194, 194);
+  position: absolute;
+  top: 0%;
+  left: 170px;
+  width: 0px;
+  height: 0%;
+  border-radius: 0% 2% ;
+    visibility: hidden;
+}
+
+#sub_farmacia{
+  position: absolute;
+  left: 0%;
+  width: 300px;
+  height: 100%;
+  
+
+}
+
+
+#subC #productos .far:hover >#farmacia  #sub_farmacia{
+  font-size: 18px;
+  transition: all 0.4s ease;
+ }
+
+
+#farmacia #sub_farmacia ul li {
+    text-align: left;
+    list-style: none;
+    padding-bottom: 5px;
+}
+#farmacia #sub_farmacia ul li a{
+  padding: 5px 10px;
+ 
+  color: white;
+  text-decoration: none;
+  
+}
+#farmacia #sub_farmacia ul li a:hover{
+ 
+  background-color: rgb(71, 71, 250);
+}
+
+
+
+
+/* barra desplazable diabetes*/
+#subC #productos #M2 #diabetes{
+  padding: 10px 0px;
+  
+
+}
+#subC #productos .dia:hover > #diabetes{
+  width: 475px;
+  height: 100%;
+  visibility: visible;
+  transition: all 0.7s ease;
+ }
+
+#diabetes{
+  background-color: rgb(194, 194, 194);
+  position: absolute;
+  top: 0%;
+  left: 170px;
+  width: 0px;
+  height: 0%;
+  border-radius: 0% 2% ;
+ 
+visibility: hidden;
+}
+
+#sub_diabetes{
+  position: absolute;
+  left: 0%;
+  width: 300px;
+  height: 100%;
+font-size: 0px;
+}
+
+#subC #productos .dia:hover >#diabetes  #sub_diabetes{
+  font-size: 18px;
+  transition: all 0.7s ease;
+ }
+
+
+#diabetes #sub_diabetes ul li{
+  text-align: left;
+  list-style: none;
+  padding-bottom: 15px;
+  
+}
+#diabetes #sub_diabetes ul li a{
+  padding: 10px 15px;
+  
+  color: white;
+  text-decoration: none;
+  
+}
+#diabetes #sub_diabetes ul li a:hover{
+ 
+  background-color: rgb(71, 71, 250);
+}
+
+ /* barra desplazable bebe*/
+
+
+ #subC #productos #M2 #bebe{
+  padding: 10px 0px;
+  
+
+}
+#subC #productos .be:hover > #bebe{
+  width: 475px;
+  height: 100%;
+  visibility: visible;
+  transition: all 0.7s ease;
+ }
+
+#bebe{
+  background-color: rgb(194, 194, 194);
+  position: absolute;
+  top: 0%;
+  left: 170px;
+  width: 0px;
+  height: 0%;
+  border-radius: 0% 2% ;
+ 
+visibility: hidden;
+}
+
+#sub_bebe{
+  position: absolute;
+  left: 0%;
+  width: 300px;
+  height: 100%;
+font-size: 0px;
+}
+
+#subC #productos .be:hover >#bebe  #sub_bebe{
+  font-size: 18px;
+  transition: all 0.7s ease;
+ }
+
+
+#bebe #sub_bebe ul li{
+  text-align: left;
+  list-style: none;
+  padding-bottom: 15px;
+  
+}
+#bebe #sub_bebe ul li a{
+  padding: 10px 15px;
+  
+  color: white;
+  text-decoration: none;
+  
+}
+#bebe #sub_bebe ul li a:hover{
+ 
+  background-color: rgb(71, 71, 250);
+}
+
+ /* barra desplazable belleza y salud*/
+
+ #belleza{
+  background-color: rgb(194, 194, 194);
+  position: absolute;
+  top: 0%;
+  left: 170px;
+  width: 0%;
+  height: 0%;
+  border-radius: 0% 2% ;
+  visibility: hidden;
+}
+
+#subC #productos #M2 #belleza{
+  padding: 10px 0px;
+  
+
+}
+
+#subC #productos .bell:hover > #belleza{
+  width: 475px;
+  height: 100%;
+  transition: all 0.7s ease;
+  visibility: visible;
+ }
+
+ #sub_belleza{
+  position: absolute;
+  left: 0%;
+  width: 300px;
+  height: 100%;
+font-size: 0px;
+}
+
+#subC #productos .bell:hover >#belleza  #sub_belleza{
+  font-size: 18px;
+  transition: all 0.7s ease;
+ }
+
+
+#belleza #sub_belleza ul li{
+  text-align: left;
+  list-style: none;
+  padding-bottom: 15px;
+  
+}
+#belleza #sub_belleza ul li a{
+  padding: 10px 15px;
+  
+  color: white;
+  text-decoration: none;
+  
+}
+#belleza #sub_belleza ul li a:hover{
+ 
+  background-color: rgb(71, 71, 250);
+}
+
+
+ /* barra desplazable cuidado hombre*/
+ #hombre{
+  background-color: rgb(194, 194, 194);
+  position: absolute;
+  top: 0%;
+  left: 170px;
+  width: 0%;
+  height: 0%;
+  border-radius: 0% 2% ;
+  visibility: hidden;
+}
+
+#subC #productos #M2 #hombre{
+  padding: 10px 0px;
+  
+
+}
+
+#subC #productos .hom:hover > #hombre{
+  width: 475px;
+  visibility: visible;
+  height: 100%;
+  transition: all 0.7s ease;
+ }
+
+ #sub_hombre{
+  position: absolute;
+  left: 0%;
+  width: 300px;
+  height: 100%;
+font-size: 0px;
+
+}
+
+#subC #productos .hom:hover >#hombre  #sub_hombre{
+  font-size: 18px;
+  transition: all 0.7s ease;
+ }
+
+
+#hombre #sub_hombre ul li{
+  text-align: left;
+  list-style: none;
+
+  padding-bottom: 15px;
+  
+}
+#hombre #sub_hombre ul li a{
+  padding: 10px 15px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  
+}
+#hombre #sub_hombre ul li a:hover{
+ 
+  background-color: rgb(71, 71, 250);
+}
+
+ /* barra desplazable higiene personal*/
+
+ #higiene{
+  background-color: rgb(194, 194, 194);
+  position: absolute;
+  top: 0%;
+  left: 170px;
+  width: 0%;
+  height: 0%;
+  border-radius: 0% 2% ;
+  visibility: hidden;
+}
+
+#subC #productos #M2 #higiene{
+  padding: 10px 0px;
+  
+
+}
+
+#subC #productos .hig:hover > #higiene{
+  width: 475px;
+  visibility: visible;
+  height: 100%;
+  transition: all 0.7s ease;
+ }
+  
+ #sub_higiene{
+  position: absolute;
+  left: 0%;
+  width: 300px;
+  height: 100%;
+font-size: 0px;
+
+}
+
+#subC #productos .hig:hover >#higiene  #sub_higiene{
+  font-size: 18px;
+  transition: all 0.7s ease;
+ }
+
+
+#higiene #sub_higiene ul li{
+  text-align: left;
+  list-style: none;
+
+  padding-bottom: 15px;
+  
+}
+#higiene #sub_higiene ul li a{
+  padding: 10px 15px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  
+}
+#higiene #sub_higiene ul li a:hover{
+ 
+  background-color: rgb(71, 71, 250);
+}
+
+ 
+
+ /* barra desplazable bienestar*/
+ #bienestar{
+  background-color: rgb(194, 194, 194);
+  position: absolute;
+  top: 0%;
+  left: 170px;
+  width: 0%;
+  height: 0%;
+  border-radius: 0% 2% ;
+  visibility: hidden;
+}
+
+#subC #productos #M2 #bienestar{
+  padding: 10px 0px;
+  
+
+}
+
+#subC #productos .bien:hover > #bienestar{
+  width: 475px;
+  visibility: visible;
+  height: 100%;
+  transition: all 0.7s ease;
+ }
+
+ #sub_bienestar{
+  position: absolute;
+  left: 0%;
+  width: 300px;
+  height: 100%;
+font-size: 0px;
+
+}
+
+#subC #productos .bien:hover >#bienestar  #sub_bienestar{
+  font-size: 18px;
+  transition: all 0.7s ease;
+ }
+
+
+#bienestar #sub_bienestar ul li{
+  text-align: left;
+  list-style: none;
+
+  padding-bottom: 15px;
+  
+}
+#bienestar #sub_bienestar ul li a{
+  padding: 10px 15px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  
+}
+#bienestar #sub_bienestar ul li a:hover{
+ 
+  background-color: rgb(71, 71, 250);
+}
+ 
+
+
+/*imgenes del menu*/
+#logo{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 270px;
+  top: 30%;
+}
+
+
+.container{
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  align-content: center;
+  position:relative;
+}
+
+#ul1, .lista{
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+}
+
+#ul1.slider{
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+#ul1.slider .lista{
+  position: absolute;
+  opacity: 0;
+  width: inherit;
+  height: inherit;
+  transition: opacity .5s;
+
+}
+
+#ul1.slider .lista img{
+  width: 100%;
+  height: 310px;
+  
+} 
+
+#ul1.slider .lista:first-child{
+  opacity: 1;
+}
+
+.menu1{
+  
+  margin: 20px;
+  text-align: center;
+background-color: rgba(255, 255, 255, 0);
+}
+
+.menu1 .lista {
+display: inline-block;
+text-align: center;
+}
+.menu1 .lista a{
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+  background-color: #0764fa;
+  padding: 10px;
+  width: 10px;
+  height: 10px;
+  font-size: 10px;
+  border-radius: 100%;
+}
+
+#ul1.slider .lista:target{
+  opacity: 1;
+}
+
+
+#container2{
+  width: 100%;
+  height: 100px;
+  background-color: #E7E7E7;
+  text-align: center;
+  align-items: center;
+  
+  font-size: 16px;
+  display: inline-flex;
+}
+
+.servicio{
+width: 25%;
+height: 100px;
+background-color: #E7E7E7;
+
+
+}
+
+.servicio a{
+  color: rgb(143, 140, 140);
+  text-decoration: none;
+}
+
+.servicio a:hover{
+  text-decoration: black underline;
+}
+
+#container2 .servicio #icon_doctor{
+color: blue;
+width: 25px;
+height: 25px;
+
+position: relative;
+top: 7%;
+}
+
+
+#litsa_p {
+    position: relative;
+    top: 0%;
+    right: 0%;
+    height: auto;
+    background-color: #f0f0f0;
+    display: inline;
+    align-content: center;
+    justify-content:center;
+    text-align:center;
+}
+#targeta {
+    margin: 6px;
+    float: left;
+}
+

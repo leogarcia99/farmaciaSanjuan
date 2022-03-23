@@ -1,0 +1,212 @@
+body {
+    font-family: cursive;
+    background: #ffffff;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    background: #132A4F;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+    .menu li a {
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        display: block;
+    }
+
+    .menu li {
+        display: inline-block;
+        text-align: center;
+    }
+
+        .menu li a:hover {
+            background: #7BA9F3;
+        }
+
+        .menu li .busqueda input {
+            width: 200%;
+            color: white;
+            border-color: inherit;
+            background: transparent;
+            margin: 0;
+        }
+
+.cabeza {
+    float: left;
+    font-family: cursive;
+    padding: 0;
+    background: #3A7FED;
+    width: 100%;
+    margin-bottom: 3px;
+    position: relative;
+}
+
+
+
+.seccion {
+    float: left;
+    padding-bottom: 10px;
+    background: #3a7fed;
+    width: 100%;
+    height: 800px;
+    border-style: solid;
+}
+
+
+.abajo {
+    float: left;
+    width: 100%;
+    height: 300px;
+    background: #D6D4D4;
+}
+
+    /*footer*/
+    .abajo #ayuda {
+        position: absolute;
+        width: 200px;
+        height: 300px;
+    }
+
+        .abajo #ayuda ul li {
+            list-style: none;
+        }
+
+            .abajo #ayuda ul li a {
+                text-decoration: none;
+                color: rgb(160, 158, 158);
+            }
+
+                .abajo #ayuda ul li a:hover {
+                    text-decoration: underline black;
+                }
+
+
+    .abajo #servicios {
+        position: absolute;
+        width: 200px;
+        height: 300px;
+        left: 300px;
+    }
+
+        .abajo #servicios ul li {
+            list-style: none;
+        }
+
+            .abajo #servicios ul li a {
+                text-decoration: none;
+                color: rgb(160, 158, 158);
+            }
+
+                .abajo #servicios ul li a:hover {
+                    text-decoration: underline black;
+                }
+
+
+    .abajo #compra {
+        position: absolute;
+        width: 200px;
+        height: 300px;
+        left: 600px;
+    }
+
+        .abajo #compra ul li {
+            list-style: none;
+        }
+
+            .abajo #compra ul li a {
+                text-decoration: solid;
+                color: rgb(160, 158, 158);
+            }
+
+                .abajo #compra ul li a:hover {
+                    text-decoration: underline black;
+                }
+
+    .abajo #cliente {
+        position: absolute;
+        width: 200px;
+        height: 300px;
+        left: 900px;
+    }
+
+        .abajo #cliente ul li {
+            list-style: none;
+        }
+
+            .abajo #cliente ul li a {
+                text-decoration: none;
+                color: rgb(160, 158, 158);
+            }
+
+                .abajo #cliente ul li a:hover {
+                    text-decoration: underline black;
+                }
+
+#hr {
+    position: relative;
+    top: 230px;
+}
+
+    #hr hr {
+        border-color: black;
+        border-style: solid;
+    }
+
+#parrafo {
+    position: relative;
+    top: 230px;
+}
+
+    #parrafo p {
+        text-align: center;
+    }
+/*barra de busqueda*/
+
+
+#search {
+    position: absolute;
+    padding: 7px;
+    top: 6px;
+    right: 200px;
+}
+
+    #search input {
+        width: 0px;
+        height: 30px;
+        padding: 0 20px;
+        font-size: 18px;
+        color: #000;
+        outline: none;
+        border: 1px solid rgb(163, 161, 161);
+        border-width: 3px;
+        border-radius: 30px;
+        transition: all 0.7s ease;
+    }
+
+#btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #0764fa;
+    width: 55px;
+    height: 55px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#search:hover input {
+    width: 350px;
+}
+
+#search input:focus {
+    width: 350px;
+}
